@@ -1,4 +1,4 @@
-dta <- read_excel("C:/Users/Amen/Google Drive/RS Lab/Env Data Analysis/Project/dta.xlsx")
+dta <- read_excel("C:/Users/Amir/Google Drive/RS Lab/Env Data Analysis/Project/dta.xlsx")
 dta<-data.frame(dta)
 dta.cal<-dta[30:45,]
 dta$TotRedPer<-(dta$COPPER_OUT_RedPer+dta$ZINC_OUT_RedPer)/2
